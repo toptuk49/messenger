@@ -10,6 +10,7 @@
     "fonts": "gulp fonts"
   },
   "dependencies": {
+    "pinia": "^2.1.6",
     "vue": "^3.3.4"
   },
   "devDependencies": {

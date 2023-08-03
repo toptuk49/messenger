@@ -1,0 +1,38 @@
+.header {
+  &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    @include adaptiveValue("padding-top", 20, 10);
+    @include adaptiveValue("padding-bottom", 20, 10);
+
+    box-shadow: 1px -1px 5px 0px #cccccc;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include adaptiveValue("margin-right", 50, 20);
+  }
+
+  &__title {
+    font-size: rem(24);
+    font-weight: 700;
+    flex-basis: 100%;
+  }
+}
+
+.search-header {
+  display: flex;
+  align-items: center;
+
+  &__button {
+    font-size: rem(28);
+
+    @media (min-width: $mobile) {
+      display: none;
+    }
+  }
+}

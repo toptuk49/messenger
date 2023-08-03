@@ -1,16 +1,14 @@
 @use "sass:math";
 
-// Обнуление стилей
-@import "base/null";
-
 // Миксины
 @import "base/mixins";
 
 // Шрифты
 @import "fonts/fonts";
+@import "fonts/icons";
 
 // Шрифт по умолчанию ========================================================================================================================================================
-$fontFamily: "";
+$fontFamily: "OpenSans", sans-serif;
 $fontSize: rem(14);
 
 // Основные цвета
@@ -86,3 +84,13 @@ $responsiveType: 1;
     }
   }
 }
+
+// Обнуление стилей
+@import "base/null";
+
+// Компоненты
+@import "components/header/header";
+@import "components/sidebar/sidebar";
+
+// Переиспользуемые элементы
+@import "layouts/menu";

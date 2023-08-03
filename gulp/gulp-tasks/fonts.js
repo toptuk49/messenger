@@ -95,7 +95,7 @@ export const fontsStyle = () => {
 
         fs.appendFileSync(
           fontsFile,
-          `@font-face {\n\tfont-family: ${fontName};\n\tfont-display: swap;\n\tsrc: url("../../fonts_compiled/${fontFileName}.woff2") format("woff2"), url("../../fonts_compiled/${fontFileName}.woff") format("woff");\n\tfont-weight: ${fontWeight};\n\tfont-style: normal;\n}\r\n`
+          `@font-face {\n\tfont-family: "${fontName}";\n\tfont-display: swap;\n\tsrc: url("../fonts_compiled/${fontFileName}.woff2") format("woff2"), url("../fonts_compiled/${fontFileName}.woff") format("woff");\n\tfont-weight: ${fontWeight};\n\tfont-style: normal;\n}\r\n`
         );
 
         newFileOnly = fontFileName;

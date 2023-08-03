@@ -14,4 +14,4 @@ import { otfToTtf, ttfToWoff, fontsStyle } from "./gulp/gulp-tasks/fonts.js";
 
 const fonts = gulp.series(otfToTtf, ttfToWoff, fontsStyle);
 
-gulp.task('fonts', fonts);
+gulp.task('fonts', fonts, gulp.watch('./src/assets/fonts/**/*.*', fonts));
