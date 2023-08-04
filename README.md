@@ -1,4 +1,4 @@
-# Messenger Vue.js application
+# Messenger Vue.js application 💬
 
 ## About 🔎
 
@@ -7,7 +7,9 @@ When I started to work on this project, I had no knowledge 🤪 in Vue.js.
 
 🎯 I wish it helps me to learn Vue.js as well as improve in English language 🌎.
 
-🚀 I'm planning to use Server Side Rendering and a backend later so I can deploy messenger on a server.
+🚀 I'm planning to use Server Side Rendering 🖌️ and a backend 🏭 later so I can deploy messenger 💬 on a server.
+
+💭 I think it would be great to migrate 🐾 on TypeScript later.
 
 ## Installation 💻
 
@@ -46,3 +48,5 @@ Fonts automatically adds to fonts.scss 🅰 file and imports to style.scss 🎨 
 ## My contacts 📞
 
 You can write 💌 to me on this email 📫 [paa21w@yandex.ru](mailto:paa21w@yandex.ru).
+
+🤝 Your contributions 🧩 are welcome! ✨
