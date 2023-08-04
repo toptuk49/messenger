@@ -1,0 +1,17 @@
+// leftApproach animation
+.left-approach-enter-active {
+  transition: all 0.3s ease-in;
+}
+
+.left-approach-leave-active {
+  transition: all 0.3s ease-out;
+}
+
+.left-approach-enter-from,
+.left-approach-leave-to {
+  transform: translateX(-100vw);
+}
+
+.left-approach-enter-to {
+  transform: translateX(0);
+}

@@ -1,6 +1,5 @@
 .header {
   &__container {
-    position: relative;
     display: flex;
     align-items: center;
     @include adaptiveValue("padding-top", 20, 10);

@@ -9,7 +9,7 @@
 
 // Шрифт по умолчанию ========================================================================================================================================================
 $fontFamily: "OpenSans", sans-serif;
-$fontSize: rem(14);
+$fontSize: rem(18);
 
 // Основные цвета
 $mainColor: #000;
@@ -21,10 +21,10 @@ $minWidth: 320;
 // Ширина макета
 $maxWidth: 1920;
 // Ширина ограничивающего контейнера (0 = нет ограничения)
-$maxWidthContainer: 1170;
+$maxWidthContainer: $maxWidth; // 1170
 // Общий отступ у контейнера
 // (30 = по 15px слева и справа, 0 = нет отступа)
-$containerPadding: 30;
+$containerPadding: 50;
 
 // Ширина срабатывания первого брейкпоинта
 $containerWidth: $maxWidthContainer + $containerPadding;
@@ -59,7 +59,7 @@ $responsiveType: 1;
     }
   }
 } @else {
-  // По брейк-поинтам
+  // По брейкпоинтам
   [class*="__container"] {
     margin: 0 auto;
     @if ($maxWidthContainer>0) {
@@ -85,8 +85,36 @@ $responsiveType: 1;
   }
 }
 
+// body
+body::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+body[class="body-faded"] {
+  .sidebar {
+    box-shadow: 10px 0px 24px 3px #515151;
+  }
+}
+
+body[class="body-faded"]::after {
+  opacity: 1;
+}
+
 // Обнуление стилей
 @import "base/null";
+
+// Анимации
+@import "base/animations";
 
 // Компоненты
 @import "components/header/header";
