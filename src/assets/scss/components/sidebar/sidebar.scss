@@ -14,9 +14,6 @@
   gap: rem(20);
   z-index: 2;
 
-  &__header {
-  }
-
   &__stack {
     color: lightgray;
     padding-left: rem(25);
@@ -25,9 +22,8 @@
     border-bottom: rem(1) solid lightgray;
     font-size: rem(16);
     user-select: none;
-  }
-
-  &__menu {
+    // width: 100%;
+    text-align: center;
   }
 }
 .header-sidebar {
@@ -48,19 +44,6 @@
     font-weight: 500;
     @include adaptiveValue("font-size", 32, 24);
     user-select: none;
-  }
-
-  &__status {
-  }
-}
-.menu-sidebar {
-  &__item {
-  }
-
-  &__icon {
-  }
-
-  &__name {
   }
 }
 

@@ -9,7 +9,7 @@
 
 .left-approach-enter-from,
 .left-approach-leave-to {
-  transform: translateX(-100vw);
+  transform: translateX(rem(-300));
 }
 
 .left-approach-enter-to {
