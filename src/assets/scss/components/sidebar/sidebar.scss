@@ -78,7 +78,10 @@
     align-items: center;
     width: 100%;
     @include adaptiveValue("gap", 25, 10);
-    padding: rem(10) 0 rem(10) rem(30);
+    @include adaptiveValue("padding-top", 15, 10);
+    @include adaptiveValue("padding-bottom", 15, 10);
+    @include adaptiveValue("padding-left", 30, 20);
+    padding-right: 0;
     cursor: pointer;
     user-select: none;
 

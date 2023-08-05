@@ -1,16 +1,8 @@
 <script setup>
-import { ref } from "vue";
 import { useLayoutStore } from "@/stores/layout";
 
 // Переиспользуемые компоненты
 import Menu from "../layouts/Menu.vue";
-
-// Search logic
-const searchActive = ref(false);
-
-function toggleSearch() {
-  searchActive.value = !searchActive.value;
-}
 
 // Sidebar logic
 const layout = useLayoutStore();

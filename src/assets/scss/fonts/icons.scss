@@ -16,6 +16,12 @@
   }
 }
 
+._icon-check:before {
+  content: "\e902";
+}
+._icon-double-check:before {
+  content: "\e900";
+}
 ._icon-contacts:before {
   content: "\e944";
 }

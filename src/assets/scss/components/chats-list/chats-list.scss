@@ -1,0 +1,16 @@
+@import "chat";
+
+.chats-list {
+  display: flex;
+  flex-direction: column;
+  max-width: $mobile;
+
+  &__chat {
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+
+    @media (max-width: $mobile) {
+      border-bottom: 1px solid lightgray;
+    }
+  }
+}
