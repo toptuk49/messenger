@@ -1,0 +1,29 @@
+// Imports
+@import "fonts";
+
+// Variables
+/* ---------- Text ---------- */
+$primary-text-size: 16px;
+$highlighted-text-size: 1.125rem;
+$header-text-size: 1.375rem;
+
+/* ---------- Colors ----------- */
+$highlight-color: #ff66dd;
+$primary-color: #fff;
+$secondary-color: #ededed;
+$sidebar-color: #fdfdfd;
+$primary-text-color: #000;
+$secondary-text-color: #8c8c8c;
+
+// General styles
+html {
+  font-family: "Montserrat", "sans-serif";
+  font-size: $primary-text-size;
+  font-weight: $regular;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
