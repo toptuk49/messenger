@@ -1,6 +1,15 @@
-@import "base/fonts.scss";
-@import "base/variables.scss";
-@import "base/functions.scss";
+// Variables
+@import "@/scss/base/variables/colors.scss";
+@import "@/scss/base/variables/layout.scss";
+@import "@/scss/base/variables/text.scss";
+@import "@/scss/base/variables/icons.scss";
+
+// Functions
+@import "@/scss/base/functions/rem.scss";
+
+// Fonts
+@import "@/scss/base/fonts/fonts.scss";
+@import "@/scss/base/fonts/icons.scss";
 
 // General styles
 html {

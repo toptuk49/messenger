@@ -1,0 +1,43 @@
+@import "@/scss/base/mixins/icon.scss";
+
+@font-face {
+  font-family: "icons";
+  src: url("fonts/icons.eot?5mdo0h");
+  src:
+    url("@/assets/fonts/icons.eot?5mdo0h#iefix") format("embedded-opentype"),
+    url("@/assets/fonts/icons.ttf?5mdo0h") format("truetype"),
+    url("@/assets/fonts/icons.woff?5mdo0h") format("woff"),
+    url("@/assets/fonts/icons.svg?5mdo0h#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"],
+[class*=" _icon-"] {
+  @include icon;
+}
+
+._icon-check:before {
+  content: $icon-check;
+}
+
+._icon-double-check:before {
+  content: $icon-double-check;
+}
+
+._icon-phone:before {
+  content: $icon-phone;
+}
+
+._icon-search:before {
+  content: $icon-search;
+}
+
+._icon-send:before {
+  content: $icon-send;
+}
+
+._icon-settings:before {
+  content: $icon-settings;
+}
