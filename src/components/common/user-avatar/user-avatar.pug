@@ -1,0 +1,7 @@
+mixin user-avatar(status)
+  .user-avatar
+    img.user-avatar__image(alt="")
+    if status == "online"
+      span.user-avatar__status(class="user-avatar__status_online")
+    else
+      span.user-avatar__status

@@ -1,0 +1,11 @@
+@import "./__input/burger-menu__input.scss";
+@import "./__label/burger-menu__label.scss";
+@import "./__toggle/burger-menu__toggle.scss";
+
+.burger-menu {
+  width: rem(50);
+  height: rem(35);
+  border: 0;
+  padding: 0;
+  background: transparent;
+}

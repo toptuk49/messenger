@@ -1,0 +1,7 @@
+@use "sass:math";
+@import "./variables.scss";
+
+@function rem($px) {
+  $primary-size: math.div($primary-text-size, 1px);
+  @return math.div($px, $primary-size) * 1rem;
+}

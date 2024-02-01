@@ -1,0 +1,15 @@
+.user-avatar__status {
+  display: none;
+
+  width: 16.666%;
+  height: 16.666%;
+  border-radius: 50%;
+  background-color: $highlight-color;
+  border: 3px solid $primary-color;
+
+  position: absolute;
+  right: 3.5%;
+  bottom: 3.5%;
+}
+
+@import "./_online/user-avatar__status_online.scss";

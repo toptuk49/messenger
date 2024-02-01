@@ -1,0 +1,11 @@
+@import "./__image/user-avatar__image.scss";
+@import "./__status/user-avatar__status.scss";
+
+.user-avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(70);
+  height: rem(70);
+}
