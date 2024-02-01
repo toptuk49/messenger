@@ -17,3 +17,9 @@ npm run dev # This will run the project via local server
 ```
 
 You can read other commands in _package.json_ file in the root of the project.
+
+## Patterns 🎨
+
+Messenger's layout based on components, following the principles of [BEM](https://en.bem.info/methodology/) methodology.
+
+Messenger itself is a [Single-page application](https://en.wikipedia.org/wiki/Single-page_application) based on [AJAX](<https://en.wikipedia.org/wiki/Ajax_(programming)>) technique.
