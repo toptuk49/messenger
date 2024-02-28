@@ -1,0 +1,10 @@
+.read-status {
+  @include icon;
+  font-size: rem(25);
+
+  &::before {
+    content: $icon-check;
+  }
+}
+
+@import "_read/read-status_read.scss";

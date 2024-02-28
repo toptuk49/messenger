@@ -1,0 +1,17 @@
+include ../user-avatar/user-avatar.pug
+include ../read-status/read-status.pug
+include ../base/count/count.pug
+include ../base/timestamp/timestamp.pug
+
+.chat-selector
+  +user-avatar(online).chat-selector__user-avatar
+  .chat-selector__wrapper
+    .chat-selector__container
+      span.chat-selector__name
+        | Timofey Lozhkin Povarezhkin
+      +read-status(read).chat-selector__read-status
+      +timestamp("11.06.2023 11:48 AM").chat-selector__timestamp
+    .chat-selector__container
+      span.chat-selector__message
+        | Здорово! Как прошёл твой день? Я вот сегодня сдал коллоквиум. А ты?
+      +count("1K+").chat-selector__unread-messages-count

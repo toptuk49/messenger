@@ -1,0 +1,8 @@
+@import "@/scss/base/mixins/ellipsis.scss";
+
+.chat-selector__name {
+  @include ellipsis;
+  font-size: $highlighted-text-size;
+  font-weight: $medium;
+  flex: 1;
+}

@@ -1,0 +1,5 @@
+.read-status_read {
+  &::before {
+    content: $icon-double-check;
+  }
+}

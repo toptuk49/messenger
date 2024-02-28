@@ -1,0 +1,6 @@
+@import "@/scss/base/mixins/ellipsis.scss";
+
+.chat-selector__message {
+  @include ellipsis;
+  flex: 1;
+}

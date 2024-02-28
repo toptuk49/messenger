@@ -1,0 +1,9 @@
+.chat-selector_selected {
+  background-color: $highlight-color;
+
+  &,
+  & .chat-selector__timestamp,
+  & .chat-selector__read-status {
+    color: $primary-color;
+  }
+}

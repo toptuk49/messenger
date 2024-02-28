@@ -1,0 +1,5 @@
+mixin read-status(status)
+  if status == read
+    span.read-status(class=["read-status_read", attributes.class])
+  else
+    span.read-status(class!=attributes.class)

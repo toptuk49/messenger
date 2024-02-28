@@ -1,5 +1,5 @@
 mixin burger-menu(name)
-  .burger-menu
+  .burger-menu(class!=attributes.class)
     input.burger-menu__input(type="checkbox" id=name)
     label.burger-menu__label(for=name)
       .burger-menu__toggle

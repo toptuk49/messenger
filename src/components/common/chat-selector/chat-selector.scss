@@ -1,0 +1,21 @@
+.chat-selector {
+  display: flex;
+  gap: rem(10);
+  padding: rem(11) rem(25);
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+  border-top: rem(1) solid $border-color;
+  border-bottom: rem(1) solid $border-color;
+}
+
+@import "./__unread-messages-count/chat-selector__unread-messages-count.scss";
+@import "./__user-avatar/chat-selector__user-avatar.scss";
+@import "./__timestamp/chat-selector__timestamp.scss";
+@import "./__message/chat-selector__message.scss";
+@import "./__name/chat-selector__name.scss";
+@import "./__wrapper/chat-selector__wrapper.scss";
+@import "./__container/chat-selector__container.scss";
+@import "./__read-status/chat-selector__read-status.scss";
+
+@import "./_selected/chat-selector_selected.scss";
